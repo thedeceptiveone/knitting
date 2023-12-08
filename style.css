@@ -53,7 +53,7 @@ p {
 }
 
 figure {
-    border: 1px purple;
+    border: 1px solid purple;
     background: plum;
     padding: 24px;
     text-align: center;
@@ -62,5 +62,7 @@ figure {
 figure img {
       display: block;
       margin: auto;
+      max-width: 100%;
+      height: auto;
 }
     
