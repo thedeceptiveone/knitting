@@ -51,5 +51,16 @@ p {
         background: plum;
         font-family: verdana;
 }
-  
+
+figure {
+    border: 1px purple;
+    background: plum;
+    padding: 24px;
+    text-align: center;
+}
+    
+figure img {
+      display: block;
+      margin: auto;
+}
     
