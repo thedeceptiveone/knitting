@@ -23,11 +23,11 @@ header nav ul li a {
 }
 
 nav ul li a:hover {
-      text-decoration: underline;
+    text-decoration: underline;
 }
 
 header nav ul li a {
-      text-decoration: none;
+    text-decoration: none;
 }
   
 @media all and (min-width: 416px) {
@@ -40,29 +40,38 @@ header nav ul li a {
 }
 
 h2 {
-        background: purple;
-        color: white;
-        text-align: center;
-        font-size: 30px;
-        padding: 15px;
+    background: purple;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
 }
   
+h3 {
+    background: purple;
+    color:white;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
 p {
-        background: plum;
-        font-family: verdana;
+    background: plum;
+    font-family: verdana;
+    padding: 10px;
 }
 
 figure {
-    border: 1px solid purple;
+    border: 2px solid purple;
     background: plum;
     padding: 24px;
     text-align: center;
+    max-width: 500px;
+    display: inline-block;
 }
     
 figure img {
-      display: block;
-      margin: auto;
-      max-width: 100%;
-      height: auto;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
 }
     
