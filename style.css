@@ -29,6 +29,12 @@ nav ul li a:hover {
 header nav ul li a {
     text-decoration: none;
 }
+
+li {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+  }
   
 @media all and (min-width: 416px) {
     nav ul {
@@ -58,6 +64,15 @@ p {
     background: plum;
     font-family: verdana;
     padding: 10px;
+}
+
+p.quote {
+    padding-left: 40px;
+    background: white;
+}
+  
+p.paper {
+    background: white;
 }
 
 figure {
