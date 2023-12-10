@@ -30,14 +30,6 @@ header nav ul li a {
     text-decoration: none;
 }
 
-li.paper {
-    list-style: none;
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    font-family: 'Times New Roman', serif;
-  }
-
 li {
     font-size: 20px;
   }
@@ -49,6 +41,30 @@ li {
       justify-content: center;
       gap: 25px;
     }
+}
+
+li.paper {
+    padding: 5px;
+}
+  
+.center {
+    text-align: center
+}
+  
+.paper {
+      font-family: 'Times New Roman', serif;
+      font-size: 20px;
+      background: white;
+      list-style: none;
+}
+  
+.apa {
+      padding-left: 60px;
+      text-indent: -50px;
+}
+
+.quote {
+    padding-left: 60px;
 }
 
 h2 {
@@ -89,19 +105,6 @@ p {
     padding-right: 10px;
 }
 
-p.quote {
-    padding-left: 60px;
-    background: white;
-}
-  
-p.paper {
-    background: white;
-}
-
-.apa {
-    padding-left: 60px;
-    text-indent: -50px;
-}
 
 figure {
     border: 2px solid purple;
