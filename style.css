@@ -62,19 +62,22 @@ h2 {
 h3 {
     background: purple;
     color:white;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 25px;
   }
 
 h4 {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: underline;
     font-family: 'Times New Roman', serif;
     font-size: 20px;
   }
 
 h5 {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: 'Times New Roman', serif;
     font-size: 20px
   }
@@ -82,7 +85,8 @@ h5 {
 p {
     background: plum;
     font-family: verdana;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 p.quote {
@@ -92,6 +96,11 @@ p.quote {
   
 p.paper {
     background: white;
+}
+
+.apa {
+    padding-left: 60px;
+    text-indent: -50px;
 }
 
 figure {
