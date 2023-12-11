@@ -56,6 +56,8 @@ li.paper {
       font-size: 20px;
       background: white;
       list-style: none;
+      padding-top: 0px;
+      padding-bottom: 0px;
 }
   
 .apa {
@@ -71,6 +73,14 @@ li.paper {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+.small {
+    max-width: 300px;
+  }
+
+.read {
+    max-width: 600px;
   }
   
 h2 {
@@ -107,8 +117,7 @@ h5 {
 p {
     background: plum;
     font-family: verdana;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 
