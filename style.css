@@ -136,3 +136,13 @@ figure img {
     height: auto;
 }
     
+footer#page-footer {
+    text-align: center;
+    padding: 32px;
+    margin-top: 64px;
+    background-color: purple;
+}
+  
+footer nav ul li a {
+    color: white;
+}
