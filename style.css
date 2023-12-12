@@ -22,12 +22,7 @@ header nav ul li a {
 }
 
 nav ul li a {
-    text-decoration: none;
     font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 nav ul {
@@ -39,6 +34,7 @@ li {
     font-size: 20px;
   }
   
+
 @media all and (min-width: 431px) {
     nav ul {
       display: flex;
@@ -46,6 +42,19 @@ li {
       justify-content: center;
       gap: 25px;
     }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+    }
+      header nav ul li a {
+        text-decoration: none;
+    }
+    }
+
 }
 
 li.paper {
@@ -74,11 +83,10 @@ li.paper {
     padding-left: 60px;
 }
 
-.container {
+  .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    flex-wrap: wrap;
+}
 
 .small {
     max-width: 300px;
@@ -124,7 +132,6 @@ p {
     font-family: verdana;
     padding: 10px;
 }
-
 
 figure {
     border: 2px solid purple;
