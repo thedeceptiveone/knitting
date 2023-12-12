@@ -18,23 +18,28 @@ header nav ul {
 }
   
 header nav ul li a {
-    font-weight: bold;
     color: purple;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
 
-header nav ul li a {
-    text-decoration: none;
-}
+nav ul {
+    list-style: none;
+    text-align: center;
+  }
 
 li {
     font-size: 20px;
   }
   
-@media all and (min-width: 416px) {
+@media all and (min-width: 431px) {
     nav ul {
       display: flex;
       flex-wrap: wrap;
@@ -79,7 +84,7 @@ li.paper {
     max-width: 300px;
   }
 
-  .read {
+.read {
     max-width: 600px;
   }
   
