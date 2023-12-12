@@ -1,6 +1,6 @@
 h1#site-title {
     color: purple;
-    font-family: "brush script mt";
+    font-family: "brush script mt", cursive;
     font-size: 80px;
     text-align: center;
 }
@@ -17,23 +17,17 @@ header nav ul {
     border-color: purple;
 }
   
+nav ul li a {
+  font-weight: bold;
+}
+
 header nav ul li a {
     color: purple;
 }
 
-nav ul li a {
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-  }
-
 li {
     font-size: 20px;
   }
-  
 
 @media all and (min-width: 431px) {
     nav ul {
@@ -43,19 +37,20 @@ li {
       gap: 25px;
     }
     .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      nav ul li a:hover {
-        text-decoration: underline;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-      header nav ul li a {
-        text-decoration: none;
+    nav ul li a:hover {
+      text-decoration: underline;
     }
+    header nav ul li a {
+      text-decoration: none;
     }
-
-}
+    p {
+      max-width: 600px;
+    }
+  }
 
 li.paper {
     padding: 5px;
