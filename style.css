@@ -5,17 +5,19 @@ h1#site-title {
     text-align: center;
 }
   
+header nav ul {
+  padding: 5px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: purple;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
 }
   
-header nav ul {
-    padding: 5px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: purple;
-}
+
   
 nav ul li a {
   font-weight: bold;
@@ -30,27 +32,28 @@ li {
   }
 
 @media all and (min-width: 431px) {
-    nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 25px;
-    }
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-    header nav ul li a {
-      text-decoration: none;
-    }
-    p {
-      max-width: 600px;
-    }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding-inline-start: 0px;
   }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  header nav ul li a {
+    text-decoration: none;
+  }
+  p {
+    max-width: 600px;
+  }
+}  
 
 li.paper {
     padding: 5px;
@@ -67,6 +70,10 @@ li.paper {
       list-style: none;
       padding-top: 0px;
       padding-bottom: 0px;
+}
+
+.break {
+  word-break: break-all;
 }
   
 .apa {
