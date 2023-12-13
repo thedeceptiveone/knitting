@@ -5,19 +5,23 @@ h1#site-title {
     text-align: center;
 }
   
+.skip-link {
+  color: purple;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
 header nav ul {
   padding: 5px;
   border-top: 1px solid;
   border-bottom: 1px solid;
   border-color: purple;
+  margin-bottom: 64px;
 }
-
-nav ul {
-    list-style: none;
-    text-align: center;
-    padding-inline-start: 0px;
-}
-  
   
 nav ul li a {
   font-weight: bold;
@@ -31,6 +35,10 @@ li {
     font-size: 20px;
   }
 
+li.paper {
+    padding: 5px;
+}
+
 @media all and (min-width: 431px) {
   nav ul {
     display: flex;
@@ -38,11 +46,6 @@ li {
     justify-content: center;
     gap: 25px;
 
-  }
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   nav ul li a:hover {
     text-decoration: underline;
@@ -53,49 +56,57 @@ li {
   p {
     max-width: 600px;
   }
+  .core {
+  width: 800px;
+  margin: 0 auto
+  }
+  .skip-link:focus {
+    transform: translateY(-100%);
+  }
+  .skip-link {
+    padding: 4px;
+    left: 50%;
+    position: absolute;
+    transform: translateY(-1000%);
+    font-weight: 700;
+  }
 }  
 
-li.paper {
-    padding: 5px;
-}
-  
-.center {
-    text-align: center
-}
-  
-.paper {
-      font-family: 'Times New Roman', serif;
-      font-size: 20px;
-      background: white;
-      list-style: none;
-      padding-top: 0px;
-      padding-bottom: 0px;
+.apa {
+  padding-left: 60px;
+  text-indent: -50px;
 }
 
 .break {
   word-break: break-all;
 }
+
+.center {
+  text-align: center
+}
   
-.apa {
-      padding-left: 60px;
-      text-indent: -50px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.paper {
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  background: white;
+  list-style: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .quote {
     padding-left: 60px;
 }
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .small {
     max-width: 300px;
-  }
-
-.read {
-    max-width: 600px;
   }
   
 h2 {
